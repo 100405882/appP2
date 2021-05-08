@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'app-principal',
@@ -7,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PrincipalComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(public router: Router, public route: ActivatedRoute) { }
+  
   ngOnInit(): void {
   }
 

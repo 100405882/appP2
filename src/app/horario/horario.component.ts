@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'app-horario',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HorarioComponent implements OnInit {
 
-  constructor() { }
+  constructor(public router: Router, public route: ActivatedRoute) { }
 
   ngOnInit(): void {
   }

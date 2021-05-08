@@ -1,0 +1,19 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+.body {
+    margin: 1% 5%;
+}
+
+.preview {
+    border-radius: 4px;
+    background-color: blue;
+}
+
+/* Links utiles para esta movida:
+- Crear un tema personalizado (yo diria simplemente cambiar los colores primary. accent, etc de un tema por default a los que queramos):
+  https://material.angular.io/guide/theming
+- Flex y layout demo: https://tburleson-layouts-demos.firebaseapp.com/#/docs
+- Botones: https://material.angular.io/components/button/overview
+- Iconos: https://material.angular.io/components/icon/overview
+- Lista de iconos: https://fonts.google.com/icons
+*/
