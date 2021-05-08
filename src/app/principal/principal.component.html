@@ -2,75 +2,75 @@
 
 <div class="body" fxLayout="column">
 
-  <div class="bienvenido" fxLayout="row" fxLayoutAlign="space-between">
-    <div class="bienvenido-left">
-      <mat-icon>account_circle</mat-icon>
-      Bienvenido Luis!
+    <div class="bienvenido" fxFlex="40px" fxLayout="row" fxLayoutAlign="space-between">
+        <div class="bienvenido-left">
+            <mat-icon>account_circle</mat-icon>
+            Bienvenido Luis!
+        </div>
+        <div class="bienvenido-right">
+            uc3m-logo
+        </div>
     </div>
-    <div class="bienvenido-right">
-      uc3m-logo
-    </div>
-  </div>
 
-  <div class="preview">
-    <p>Siguiente clase</p>
-    <p>Hoy, 12:30</p>
-    <p>Aprendizaje Automático</p>
-    <div class="preview-fila" fxLayout="row" fxLayoutAlign="space-between">
-      <p>1.0.C02</p>
-      <div class="horario">
-      <button mat-flat-button color="accent" (click)="this.router.navigate(['/horario']);">
-        Horario
-        <mat-icon>arrow_forward</mat-icon>
-      </button>
+    <div class="preview" fxFlex="40" fxLayout="column" fxLayoutAlign="space-between">
+        <p>Siguiente clase</p>
+        <p>Hoy, 12:30</p>
+        <p>Aprendizaje Automático</p>
+        <div class="preview-fila" fxLayout="row" fxLayoutAlign="space-between">
+            <p>1.0.C02</p>
+            <div class="horario">
+                <button mat-flat-button color="accent" (click)="this.router.navigate(['/horario']);">
+                    Horario
+                    <mat-icon>arrow_forward</mat-icon>
+                </button>
+            </div>
+        </div>
     </div>
-    </div>
-  </div>
 
-  <div class="menu-botones" fxLayout="column" fxLayoutAlign="space-evenly">
-    <div class="botones-fila" fxLayout="row" fxLayoutAlign="space-evenly">
-      <div class="notas">
-        <button mat-flat-button color="primary">
-          <mat-icon>school</mat-icon>
-          Mis notas
-        </button>
-      </div>
-      <div class="mensajes">
-        <button mat-flat-button color="primary">
-          <mat-icon>mail</mat-icon>
-          Mensajes
-        </button>
-      </div>
+    <div class="menu-botones" fxFlex fxLayout="column" fxLayoutAlign="space-evenly" fxLayoutGap="2vh">
+        <div class="botones-fila" fxLayout="row" fxLayoutAlign="space-between" fxLayoutGap="2vh" fxFlex>
+            <div class="notas" fxFlex>
+                <button mat-flat-button color="primary">
+                    <mat-icon>school</mat-icon>
+                    Mis notas
+                </button>
+            </div>
+            <div class="mensajes" fxFlex>
+                <button mat-flat-button color="primary">
+                    <mat-icon>mail</mat-icon>
+                    Mensajes
+                </button>
+            </div>
+        </div>
+        <div class="botones-fila" fxLayout="row" fxLayoutAlign="space-between" fxLayoutGap="2vh" fxFlex>
+            <div class="calendario" fxFlex>
+                <button mat-flat-button color="primary">
+                    <mat-icon>date_range</mat-icon>
+                    Calendario
+                </button>
+            </div>
+            <div class="enlaces" fxFlex>
+                <button mat-flat-button color="primary">
+                    <mat-icon>link</mat-icon>
+                    Enlaces
+                </button>
+            </div>
+        </div>
+        <div class="botones-fila" fxLayout="row" fxLayoutAlign="space-between" fxLayoutGap="2vh" fxFlex>
+            <div class="ayuda" fxFlex>
+                <button mat-flat-button color="primary">
+                    <mat-icon>help</mat-icon>
+                    Ayuda
+                </button>
+            </div>
+            <div class="ajustes" fxFlex>
+                <button mat-flat-button color="primary">
+                    <mat-icon>settings</mat-icon>
+                    Ajustes
+                </button>
+            </div>
+        </div>
     </div>
-    <div class="botones-fila" fxLayout="row" fxLayoutAlign="space-evenly">
-      <div class="calendario">
-        <button mat-flat-button color="primary">
-          <mat-icon>date_range</mat-icon>
-          Calendario
-        </button>
-      </div>
-      <div class="enlaces">
-        <button mat-flat-button color="primary">
-          <mat-icon>link</mat-icon>
-          Enlaces
-        </button>
-      </div>
-    </div>
-    <div class="botones-fila" fxLayout="row" fxLayoutAlign="space-evenly">
-      <div class="ayuda">
-        <button mat-flat-button color="primary">
-          <mat-icon>help</mat-icon>
-          Ayuda
-        </button>
-      </div>
-      <div class="ajustes">
-        <button mat-flat-button color="primary">
-          <mat-icon>settings</mat-icon>
-          Ajustes
-        </button>
-      </div>
-    </div>
-  </div>
 
 </div>
 

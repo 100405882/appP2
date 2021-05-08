@@ -1,0 +1,76 @@
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+.body {
+    min-height: 100vh;
+    margin: 0 5%;
+}
+
+.header {
+    margin: 1vh 0 1vh;
+}
+
+.titulo p {
+    margin: 0;
+    text-align: center;
+}
+
+.semana {
+    border-radius: 4px;
+    background-color: blue;
+}
+
+.prev-semana {
+    color: white;
+}
+
+.texto-semana p {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+.sig-semana {
+    color: white;
+}
+
+.tablas {
+    margin: 2vh 0;
+}
+
+.dia {
+    border-radius: 4px;
+    background-color: pink;
+}
+
+.titulo-dia {
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+}
+
+.clase {
+    border-bottom: solid 1px black;
+}
+
+.hora-i {
+    padding-left: 5px;
+}
+
+.hora-f {
+    padding-left: 5px;
+}
+
+.asignatura {
+    text-align: end;
+    padding-right: 5px;
+}
+
+.aula {
+    text-align: end;
+    padding-right: 5px;
+}
+
+.tipo-clase {
+    text-align: end;
+    padding-right: 5px;
+}

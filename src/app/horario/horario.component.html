@@ -1,14 +1,268 @@
 <html>
 
 <div class="body" fxLayout="column">
-    
-    <div class="header" fxLayout="row">
-        <button mat-icon-button (click)="this.router.navigate(['/principal']);">
-            <mat-icon>arrow_back</mat-icon>
-        </button>
-        <div class="titulo">
-            Horario
+
+    <div class="header" fxFlex="40px" fxLayout="row">
+        <div class="back-button" fxFlex="20" fxFlexAlign="center">
+            <button mat-icon-button (click)="this.router.navigate(['/principal']);">
+                <mat-icon>arrow_back</mat-icon>
+            </button>
         </div>
+        <div class="titulo" fxFlex fxFlexAlign="center">
+            <p>Horario</p>
+        </div>
+        <div fxFlex="20"></div>
+    </div>
+
+    <div class="semana" fxLayout="row">
+        <div class="prev-semana">
+            <button mat-icon-button>
+                <mat-icon>west</mat-icon>
+            </button>
+        </div>
+        <div class="texto-semana" fxFlex fxFlexAlign="center">
+            <p>3 May. - 9 May. 2021</p>
+        </div>
+        <div class="sig-semana">
+            <button mat-icon-button>
+                <mat-icon>east</mat-icon>
+            </button>
+        </div>
+    </div>
+
+    <div class="tablas" fxFlex fxLayout="column" fxLayoutGap="1vh">
+        <div class="dia">
+            <div class="titulo-dia">
+                <p>Lunes 3 May.</p>
+            </div>
+            <div class="clase" gdAreas="hora-i asignatura asignatura | hora-f aula tipo-clase"
+                gdColumns="18% auto 18%">
+                <div class="hora-i" gdArea="hora-i">
+                    <p>8:30</p>
+                </div>
+                <div class="asignatura" gdArea="asignatura">
+                    <p>Diseño de Sistemas Interactivos</p>
+                </div>
+                <div class="hora-f" gdArea="hora-f">
+                    <p>10:30</p>
+                </div>
+                <div class="aula" gdArea="aula">
+                    <p>4.1.D03</p>
+                </div>
+                <div class="tipo-clase" gdArea="tipo-clase">
+                    <p>Magistral</p>
+                </div>
+            </div>
+            <div class="clase" gdAreas="hora-i asignatura asignatura | hora-f aula tipo-clase"
+                gdColumns="18% auto 18%">
+                <div class="hora-i" gdArea="hora-i">
+                    <p>8:30</p>
+                </div>
+                <div class="asignatura" gdArea="asignatura">
+                    <p>Diseño de Sistemas Interactivos</p>
+                </div>
+                <div class="hora-f" gdArea="hora-f">
+                    <p>10:30</p>
+                </div>
+                <div class="aula" gdArea="aula">
+                    <p>4.1.D03</p>
+                </div>
+                <div class="tipo-clase" gdArea="tipo-clase">
+                    <p>Magistral</p>
+                </div>
+            </div>
+            <div class="clase" gdAreas="hora-i asignatura asignatura | hora-f aula tipo-clase"
+                gdColumns="18% auto 18%">
+                <div class="hora-i" gdArea="hora-i">
+                    <p>8:30</p>
+                </div>
+                <div class="asignatura" gdArea="asignatura">
+                    <p>Diseño de Sistemas Interactivos</p>
+                </div>
+                <div class="hora-f" gdArea="hora-f">
+                    <p>10:30</p>
+                </div>
+                <div class="aula" gdArea="aula">
+                    <p>4.1.D03</p>
+                </div>
+                <div class="tipo-clase" gdArea="tipo-clase">
+                    <p>Magistral</p>
+                </div>
+            </div>
+            <div class="clase" gdAreas="hora-i asignatura asignatura | hora-f aula tipo-clase"
+                gdColumns="18% auto 18%">
+                <div class="hora-i" gdArea="hora-i">
+                    <p>8:30</p>
+                </div>
+                <div class="asignatura" gdArea="asignatura">
+                    <p>Diseño de Sistemas Interactivos</p>
+                </div>
+                <div class="hora-f" gdArea="hora-f">
+                    <p>10:30</p>
+                </div>
+                <div class="aula" gdArea="aula">
+                    <p>4.1.D03</p>
+                </div>
+                <div class="tipo-clase" gdArea="tipo-clase">
+                    <p>Magistral</p>
+                </div>
+            </div>
+        </div>
+        <div class="dia">
+            <div class="titulo-dia">
+                <p>Lunes 3 May.</p>
+            </div>
+            <div class="clase" gdAreas="hora-i asignatura asignatura | hora-f aula tipo-clase"
+                gdColumns="18% auto 18%">
+                <div class="hora-i" gdArea="hora-i">
+                    <p>8:30</p>
+                </div>
+                <div class="asignatura" gdArea="asignatura">
+                    <p>Diseño de Sistemas Interactivos</p>
+                </div>
+                <div class="hora-f" gdArea="hora-f">
+                    <p>10:30</p>
+                </div>
+                <div class="aula" gdArea="aula">
+                    <p>4.1.D03</p>
+                </div>
+                <div class="tipo-clase" gdArea="tipo-clase">
+                    <p>Magistral</p>
+                </div>
+            </div>
+            <div class="clase" gdAreas="hora-i asignatura asignatura | hora-f aula tipo-clase"
+                gdColumns="18% auto 18%">
+                <div class="hora-i" gdArea="hora-i">
+                    <p>8:30</p>
+                </div>
+                <div class="asignatura" gdArea="asignatura">
+                    <p>Diseño de Sistemas Interactivos</p>
+                </div>
+                <div class="hora-f" gdArea="hora-f">
+                    <p>10:30</p>
+                </div>
+                <div class="aula" gdArea="aula">
+                    <p>4.1.D03</p>
+                </div>
+                <div class="tipo-clase" gdArea="tipo-clase">
+                    <p>Magistral</p>
+                </div>
+            </div>
+            <div class="clase" gdAreas="hora-i asignatura asignatura | hora-f aula tipo-clase"
+                gdColumns="18% auto 18%">
+                <div class="hora-i" gdArea="hora-i">
+                    <p>8:30</p>
+                </div>
+                <div class="asignatura" gdArea="asignatura">
+                    <p>Diseño de Sistemas Interactivos</p>
+                </div>
+                <div class="hora-f" gdArea="hora-f">
+                    <p>10:30</p>
+                </div>
+                <div class="aula" gdArea="aula">
+                    <p>4.1.D03</p>
+                </div>
+                <div class="tipo-clase" gdArea="tipo-clase">
+                    <p>Magistral</p>
+                </div>
+            </div>
+            <div class="clase" gdAreas="hora-i asignatura asignatura | hora-f aula tipo-clase"
+                gdColumns="18% auto 18%">
+                <div class="hora-i" gdArea="hora-i">
+                    <p>8:30</p>
+                </div>
+                <div class="asignatura" gdArea="asignatura">
+                    <p>Diseño de Sistemas Interactivos</p>
+                </div>
+                <div class="hora-f" gdArea="hora-f">
+                    <p>10:30</p>
+                </div>
+                <div class="aula" gdArea="aula">
+                    <p>4.1.D03</p>
+                </div>
+                <div class="tipo-clase" gdArea="tipo-clase">
+                    <p>Magistral</p>
+                </div>
+            </div>
+        </div>
+        <div class="dia">
+            <div class="titulo-dia">
+                <p>Lunes 3 May.</p>
+            </div>
+            <div class="clase" gdAreas="hora-i asignatura asignatura | hora-f aula tipo-clase"
+                gdColumns="18% auto 18%">
+                <div class="hora-i" gdArea="hora-i">
+                    <p>8:30</p>
+                </div>
+                <div class="asignatura" gdArea="asignatura">
+                    <p>Diseño de Sistemas Interactivos</p>
+                </div>
+                <div class="hora-f" gdArea="hora-f">
+                    <p>10:30</p>
+                </div>
+                <div class="aula" gdArea="aula">
+                    <p>4.1.D03</p>
+                </div>
+                <div class="tipo-clase" gdArea="tipo-clase">
+                    <p>Magistral</p>
+                </div>
+            </div>
+            <div class="clase" gdAreas="hora-i asignatura asignatura | hora-f aula tipo-clase"
+                gdColumns="18% auto 18%">
+                <div class="hora-i" gdArea="hora-i">
+                    <p>8:30</p>
+                </div>
+                <div class="asignatura" gdArea="asignatura">
+                    <p>Diseño de Sistemas Interactivos</p>
+                </div>
+                <div class="hora-f" gdArea="hora-f">
+                    <p>10:30</p>
+                </div>
+                <div class="aula" gdArea="aula">
+                    <p>4.1.D03</p>
+                </div>
+                <div class="tipo-clase" gdArea="tipo-clase">
+                    <p>Magistral</p>
+                </div>
+            </div>
+            <div class="clase" gdAreas="hora-i asignatura asignatura | hora-f aula tipo-clase"
+                gdColumns="18% auto 18%">
+                <div class="hora-i" gdArea="hora-i">
+                    <p>8:30</p>
+                </div>
+                <div class="asignatura" gdArea="asignatura">
+                    <p>Diseño de Sistemas Interactivos</p>
+                </div>
+                <div class="hora-f" gdArea="hora-f">
+                    <p>10:30</p>
+                </div>
+                <div class="aula" gdArea="aula">
+                    <p>4.1.D03</p>
+                </div>
+                <div class="tipo-clase" gdArea="tipo-clase">
+                    <p>Magistral</p>
+                </div>
+            </div>
+            <div class="clase" gdAreas="hora-i asignatura asignatura | hora-f aula tipo-clase"
+                gdColumns="18% auto 18%">
+                <div class="hora-i" gdArea="hora-i">
+                    <p>8:30</p>
+                </div>
+                <div class="asignatura" gdArea="asignatura">
+                    <p>Diseño de Sistemas Interactivos</p>
+                </div>
+                <div class="hora-f" gdArea="hora-f">
+                    <p>10:30</p>
+                </div>
+                <div class="aula" gdArea="aula">
+                    <p>4.1.D03</p>
+                </div>
+                <div class="tipo-clase" gdArea="tipo-clase">
+                    <p>Magistral</p>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </div>
