@@ -1,1 +1,16 @@
-<p>login works!</p>
+<header>
+  <img id="logoUni" src="" alt="Logo Universidad">
+</header>
+
+<form>
+  <label for="iMail">Correo electrónico</label>
+  <br>
+  <input class="extended" type="email" id="iMail" name="iMail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+  <br>
+  <br>
+  <label for="iPassword">Contraseña</label>
+  <br>
+  <input class="extended"  type="password" id="iPassword" name="iPassword" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
+  <br>
+  <input class="button" type="submit" value="Iniciar Sesión">
+</form>
