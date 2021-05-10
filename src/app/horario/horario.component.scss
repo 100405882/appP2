@@ -15,7 +15,8 @@
 }
 
 .semana {
-    border-radius: 4px;
+    border: #283593 2px solid; 
+    border-radius: 6px;
     background-color: #90CAF9;
 }
 
@@ -53,7 +54,7 @@
 }
 
 .clase {
-    padding-right: 15px;
+    padding-right: 25px;
     border-bottom: solid 1px black;
     padding-top: 8px;
 }
@@ -70,7 +71,6 @@
 
 .asignatura {
     text-align: end;
-    padding-right: 5px;
     font-weight: 430;
     font-size: 16px;
 }

@@ -7,17 +7,22 @@
     margin: 1vh 0 1vh;
 }
 
+.bienvenido-left{
+    width: 65%;
+}
+.bienvenido-right{
+    width: 35%;
+}
+
 .bienvenido-right > img {
-    padding-top: 0.9vh;
-    margin-left: 10px;
     height: 60%;
 }
 
 .preview {
-    border-radius: 4px;
     background-color: #90CAF9;
     color: black;
     border-radius: 4px;
+    border: #283593 2px solid; 
 }
 
 .preview > p, .preview-fila > p {

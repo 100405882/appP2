@@ -10,7 +10,7 @@
         <div class="bienvenido-right">
             <img id="logoUni" src="assets/logo.png" alt="logo UC3M">
         </div>
-    </div>
+    </div> 
 
     <div class="preview" fxFlex="40" fxLayout="column" fxLayoutAlign="space-between">
         <p>Siguiente clase:</p>
@@ -19,7 +19,7 @@
         <div class="preview-fila" fxLayout="row" fxLayoutAlign="space-between">
             <p>1.0.C02</p>
             <div class="horario">
-                <button mat-flat-button color="white" (click)="this.router.navigate(['/horario']);">
+                <button mat-flat-button color="primary" (click)="this.router.navigate(['/horario']);">
                     Horario
                     <mat-icon>arrow_forward</mat-icon>
                 </button>
@@ -64,7 +64,7 @@
                 </button>
             </div>
             <div class="ajustes" fxFlex>
-                <button mat-flat-button color="primary">
+                <button mat-flat-button color="primary" (click)="this.router.navigate(['/login']);">
                     <mat-icon>settings</mat-icon>
                     <p>Ajustes</p>
                 </button>
