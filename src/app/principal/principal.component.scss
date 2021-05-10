@@ -7,14 +7,9 @@
     margin: 1vh 0 1vh;
 }
 
-.bienvenido-left{
-    width: 65%;
-}
-.bienvenido-right{
-    width: 35%;
-}
-
 .bienvenido-right > img {
+    padding-top: 0.9vh;
+    margin-left: 10px;
     height: 60%;
 }
 
@@ -32,6 +27,15 @@
     font-size: 20px;
 }
 
+.horario {
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.horario button {
+    width: 18vh;
+    height: 5vh;
+}
 
 .menu-botones {
     margin: 2vh 0;
@@ -44,8 +48,9 @@
 
 .menu-botones mat-icon {
     font-size: 50px;
-    padding-right: 2.8vh;
+    padding-right: 2.5vh;
     padding-bottom: 3vh;
+    margin-top: 1.5vh;
 }
 
 .menu-botones p {
