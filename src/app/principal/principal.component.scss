@@ -19,8 +19,10 @@
 
 .preview {
     border-radius: 4px;
-    background-color: deepskyblue;
+    background-color: #87CEFA;
     color: black;
+    border: black 2px solid;
+    border-radius: 3%;
 }
 
 .preview > p, .preview-fila > p {
@@ -29,6 +31,7 @@
     margin-bottom: 0px;
     font-size: 20px;
 }
+
 
 .menu-botones {
     margin: 2vh 0;
