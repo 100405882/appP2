@@ -12,5 +12,8 @@
   <br>
   <input class="extended"  type="password" id="iPassword" name="iPassword" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
   <br>
-  <input class="button" type="submit" value="Iniciar Sesión">
+  <button mat-flat-button color="primary" (click)="this.router.navigate(['/principal']);">
+    Iniciar sesión
+  </button>
 </form>
+

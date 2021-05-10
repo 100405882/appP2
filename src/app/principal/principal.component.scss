@@ -1,5 +1,3 @@
-@import '@angular/material/prebuilt-themes/indigo-pink.css';
-
 .body {
     height: 100%;
     margin: 0 2vh;
@@ -9,20 +7,17 @@
     margin: 1vh 0 1vh;
 }
 
-.bienvenido-right{
-    height: 40px;
-}
-.bienvenido-right > img{
+.bienvenido-right > img {
+    padding-top: 0.9vh;
     margin-left: 10px;
-    height: 100%;
+    height: 60%;
 }
 
 .preview {
     border-radius: 4px;
-    background-color: #87CEFA;
+    background-color: #90CAF9;
     color: black;
-    border: black 2px solid;
-    border-radius: 3%;
+    border-radius: 4px;
 }
 
 .preview > p, .preview-fila > p {
@@ -40,6 +35,17 @@
 .menu-botones button {
     width: 100%;
     height: 100%;
+}
+
+.menu-botones mat-icon {
+    font-size: 50px;
+    padding-right: 2.8vh;
+    padding-bottom: 3vh;
+}
+
+.menu-botones p {
+    font-size: 20px;
+    padding-bottom: 0vh;
 }
 
 /* Links utiles para esta movida:
