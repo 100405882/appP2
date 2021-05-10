@@ -12,25 +12,28 @@
 .titulo p {
     margin: 0;
     text-align: center;
+    font-weight: bold;
+    font-size: large;
 }
 
 .semana {
     border-radius: 4px;
-    background-color: blue;
+    background-color: lightblue;
 }
 
 .prev-semana {
-    color: white;
+    color: black;
 }
 
 .texto-semana p {
     margin: 0;
     text-align: center;
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 
 .sig-semana {
-    color: white;
+    color: black;
 }
 
 .tablas {
@@ -39,13 +42,15 @@
 
 .dia {
     border-radius: 4px;
-    background-color: pink;
+    background-color: lightblue;
 }
 
 .titulo-dia {
     color: white;
     background-color: blue;
     border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .clase {
@@ -64,6 +69,7 @@
 .asignatura {
     text-align: end;
     padding-right: 5px;
+    font-weight: 430;
 }
 
 .aula {
