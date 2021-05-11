@@ -3,9 +3,9 @@
 <div class="body" fxLayout="column">
 
     <div class="bienvenido" fxFlex="40px" fxLayout="row" fxLayoutAlign="space-between">
-        <div class="bienvenido-left">
+        <div class="bienvenido-left" fxLayout="row" fxLayoutAlign="start center">
             <mat-icon>account_circle</mat-icon>
-            Bienvenido Luis!
+            <p class="bienvenido-mensaje">Bienvenido Luis!</p>
         </div>
         <div class="bienvenido-right">
             <img id="logoUni" src="assets/logo.png" alt="logo UC3M">
@@ -16,8 +16,10 @@
         <p class="p1">Siguiente clase:</p>
         <p class="p2">Hoy, 12:30</p>
         <p class="p3">Aprendizaje Automático</p>
-        <div class="preview-fila" fxLayout="row" fxLayoutAlign="space-between">
-            <p>1.0.C02</p>
+        <div class="preview-fila" fxLayout="row" fxLayoutAlign="space-between center">
+            <p>1.0.C02 <br>
+                Magistral
+            </p>
             <div class="horario">
                 <button mat-flat-button color="primary" (click)="this.router.navigate(['/horario']);">
                     Horario

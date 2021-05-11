@@ -7,6 +7,22 @@
     margin: 1vh 0 1vh;
 }
 
+.bienvenido-left mat-icon {
+    font-size: 40px;
+    margin-top: -15px;
+}
+
+.bienvenido-left mat-icon {
+    font-size: 38px;
+    margin-top: -15px;
+}
+
+.bienvenido-mensaje {
+    padding-left: 20px;
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+
 .bienvenido-right > img {
     padding-top: 0.9vh;
     margin-left: 10px;
@@ -20,11 +36,29 @@
     border: #283593 2px solid; 
 }
 
+.p1 {
+    padding-top: 2vh;
+    font-size: 20px;
+}
+
+.p2 {
+    font-size: 40px;
+    padding-top: 0vh;
+}
+
+.p3 {
+    font-size: 28px;
+}
+
+.preview-fila p {
+    font-size: 20px;
+    padding-bottom: 1vh;
+}
+
 .preview > p, .preview-fila > p {
     margin-left: 10px;
     margin-top: 5px;
     margin-bottom: 0px;
-    font-size: 20px;
 }
 
 .horario {
@@ -34,7 +68,7 @@
 
 .horario button {
     width: 18vh;
-    height: 5vh;
+    height: 8vh;
 }
 
 .menu-botones {
