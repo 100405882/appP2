@@ -53,6 +53,7 @@
 .preview-fila p {
     font-size: 20px;
     padding-bottom: 1vh;
+    line-height: 3.2vh;
 }
 
 .preview > p, .preview-fila > p {
@@ -69,6 +70,7 @@
 .horario button {
     width: 18vh;
     height: 8vh;
+    font-size: 18px;
 }
 
 .menu-botones {
@@ -91,12 +93,3 @@
     font-size: 20px;
     padding-bottom: 0vh;
 }
-
-/* Links utiles para esta movida:
-- Crear un tema personalizado (yo diria simplemente cambiar los colores primary. accent, etc de un tema por default a los que queramos):
-  https://material.angular.io/guide/theming
-- Flex y layout demo: https://tburleson-layouts-demos.firebaseapp.com/#/docs
-- Botones: https://material.angular.io/components/button/overview
-- Iconos: https://material.angular.io/components/icon/overview
-- Lista de iconos: https://fonts.google.com/icons
-*/
